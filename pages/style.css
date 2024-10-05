@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: rgb(34, 34, 34);
+    font-family: "montserrat";
+    font-weight: 500;
+    color: white;
+    max-width: 85%;
+    margin: 15px auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 14px;
+    font-size: 12px;
+    text-align: center;
+}
+
+li{
+    display: inline-block;
+    margin: 25px;    
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: rgb(132, 14, 201);
+    transition: 0.2s all;
+}
+
+#inscreva-se-btn{
+    border: 2px solid rgb(148,0,211);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#inscreva-se-btn:hover{
+    background-color: rgb(148,0,211);
+    color: white;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    padding: 50px;
+}
+
+h2{
+    font-size: 56px;
+    line-height: 10px;
+    text-align: center;
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    text-align: justify;
+}
+
+img{
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-left: 70px;
+}
+
+form [type='submit']{
+    height: 50px;
+    width: 100%;
+    background-color:  rgb(148,0,211) ;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+form [type='submit']:hover{
+    cursor: pointer;
+    font-size: 22px;
+    height: 52px;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+}
